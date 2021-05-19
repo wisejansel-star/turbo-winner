@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_x3">10dp</dimen>
+    <dimen name="space_x3_5">48dp</dimen>
+    <dimen name="title_fsize">32sp</dimen>
+</resources>

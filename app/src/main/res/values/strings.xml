@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JEAG App</string>
+    <string name="titulo_registro">¡Bienvenido a JEAG App!</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="nombres">Nombres</string>
+    <string name="tiene_alguna_duda">¿Tiene alguna duda?</string>
+    <string name="repetir_contrase_a">Repetir Contraseña</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="contrase_a_welcome">Contraseña</string>
+    <string name="contrase_a_welcome_2">Contraseña:</string>
+    <string name="correo_welcome">Correo:</string>
+    <string name="apellidos_welcome">Apellidos</string>
+    <string name="nombres_welcome">Nombres:</string>
+    <string name="n_versi_n">N° Versión:</string>
+</resources>

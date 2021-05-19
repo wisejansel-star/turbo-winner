@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_centerInParent="true"
+       android:layout_marginHorizontal="@dimen/space_x3_5">
+
+       <TextView
+           android:id="@+id/tv_bienvenida"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/titulo_registro"
+           android:textSize="20sp"
+           />
+
+       <TextView
+           android:id="@+id/tv_version"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/n_versi_n"
+           android:textSize="12sp"
+           />
+
+       <ImageView
+           android:id="@+id/img"
+           android:layout_width="85dp"
+           android:layout_height="85dp"
+           android:src="@mipmap/ic_launcher_round"
+           android:layout_gravity="center"
+           android:contentDescription="@string/app_name"
+           />
+
+       <EditText
+           android:id="@+id/et_nombres"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/nombres"
+           android:inputType="textPersonName"
+           android:importantForAutofill="no"
+           android:layout_marginTop="@dimen/space_x3"
+           />
+
+       <EditText
+           android:id="@+id/et_apellidos"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/apellidos"
+           android:inputType="textPersonName"
+           android:importantForAutofill="no"
+           android:layout_marginTop="@dimen/space_x3"
+           />
+
+
+       <EditText
+           android:id="@+id/et_correo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/correo"
+           android:inputType="textPersonName"
+           android:importantForAutofill="no"
+           android:layout_marginTop="@dimen/space_x3"
+           />
+
+       <EditText
+           android:id="@+id/et_contra"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/contrase_a"
+           android:inputType="textPassword"
+           android:importantForAutofill="no"
+           android:layout_marginTop="@dimen/space_x3"
+           />
+
+       <EditText
+           android:id="@+id/et_repcontra"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/repetir_contrase_a"
+           android:inputType="textPassword"
+           android:importantForAutofill="no"
+           android:layout_marginTop="@dimen/space_x3"
+           />
+
+       <!-- Jmmm...deberías prestarle atención al warning :D -->
+       <Button
+           android:id="@+id/btn_registrar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/space_x3"
+           style="@style/Widget.AppCompat.Button.Colored"
+           app:backgroundTint="@color/colorPrimaryDark"
+           android:text="@string/registrarse"
+           />
+
+
+       <Button
+           android:id="@+id/btn_duda"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           style="@style/Widget.AppCompat.Button.Colored"
+           app:backgroundTint = "@color/colorPrimaryDark"
+           android:text="@string/tiene_alguna_duda"
+           />
+   </LinearLayout>
+
+</RelativeLayout>
